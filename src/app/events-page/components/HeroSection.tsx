@@ -45,7 +45,7 @@ const HeroSection = () => {
 
     return (
         <div>
-            <div className='pt-6 lg:pt-0 bg-gray-300 relative'>
+            <div className='pt-6 lg:pt-0 bg-white relative'>
                 <Slider {...settings}>
                     {slideData.map((item) => (
                         <Slide

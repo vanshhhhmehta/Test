@@ -3,10 +3,9 @@
 import Link from 'next/link';
 
 const navItems = [
-  { label: 'IPL', href: '/events/ipl' },
+  { label: 'IPL', href: '/events-page/ipl' },
   { label: 'Movies', href: '/events/movies' },
-  { label: 'Concerts', href: '/events/concerts' },
-  { label: 'Standups', href: '/events/standups' },
+  { label: 'Concerts', href: '/category/concerts' },
   { label: 'Workshops', href: '/events/workshops' },
   { label: 'Others', href: '/otherevents' },
 ];
